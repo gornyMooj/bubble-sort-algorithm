@@ -2,7 +2,7 @@
 
 with Python
 
-'''
+'''python
 import random
 
 def create_random_arrey(n,x,y):
