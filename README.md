@@ -2,7 +2,7 @@
 
 with Python
 
-'''python
+```python
 import random
 
 def create_random_arrey(n,x,y):
@@ -25,4 +25,4 @@ def bubble_sort_algorithm(my_list):
 
     print(f"Looped {counter} times through the list when sorting the {len(my_list)} long list")
     return my_list
-'''
+```
