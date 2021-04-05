@@ -1,2 +1,2 @@
-# bubble-sort-algorithm
+# Bubble sort algorithm
 Bubble sort algorithm
