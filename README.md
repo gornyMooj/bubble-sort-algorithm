@@ -25,10 +25,12 @@ def bubble_sort_algorithm(my_list):
 
     print(f"Looped {counter} times through the list when sorting the {len(my_list)} long list")
     return my_list
-    
-  my_list = create_random_arrey(14,1,20)
-  print("Random list: ",my_list)
 
-  bubble_sort_algorithm(my_list)
-  print("Sorted list: ", my_list)
+
+
+my_list = create_random_arrey(14,1,20)
+print("Random list: ",my_list)
+
+bubble_sort_algorithm(my_list)
+print("Sorted list: ", my_list)
 ```
