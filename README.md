@@ -24,7 +24,7 @@ def bubble_sort_algorithm(my_list):
                 swapped = True
 
     print(f"Looped {counter} times through the list when sorting the {len(my_list)} long list")
-    return my_list
+
 
 
 
