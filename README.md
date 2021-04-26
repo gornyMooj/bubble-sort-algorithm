@@ -24,6 +24,7 @@ def bubble_sort_algorithm_v_1(my_list):
                 swapped = True
 
     print(f"Looped {counter} times through the list when sorting the {len(my_list)} long list")
+    
 
 
 def bubble_sort_algorithm_v_2(my_list):
@@ -32,6 +33,8 @@ def bubble_sort_algorithm_v_2(my_list):
         for i in range(1,len(my_list)):
             if my_list[i -1] > my_list[i]:
                 my_list[i - 1], my_list[i] = my_list[i], my_list[i - 1]
+                
+                
 
 my_list = create_random_arrey(14,1,20)
 print("Random list: ",my_list)
